@@ -127,7 +127,8 @@ const Footer = () => {
       </div>
       <hr className="w-full h-[2px] bg-white" />
       <div className="text-center mt-8">
-        <p>&copy; 2024 Your Brand Name. All Rights Reserved.</p>
+        <p>&copy; 2024 Tech Shop. All Rights Reserved.</p>
+        <p>Develop & Design by <a className="text-blue-600 underline" href="http://mdtanvirahamedshanto.vercel.app">Shanto</a></p>
       </div>
     </footer>
   );
