@@ -1,22 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tech Ecom Frontend
+
+A modern e-commerce frontend for a tech shop, built with React.
+
+## Features
+
+- Product listing and search
+- Product details page
+- Shopping cart and checkout flow
+- User authentication (login/register)
+- Responsive design
+
+## Tech Stack
+
+- React
+- Redux Toolkit
+- React Router
+- Axios
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/mdtanvirahamedshanto/tech-ecom-frontend.git
+    cd tech-ecom-frontend
+    ```
 
-```bash
-npm run dev
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3. **Start the development server:**
+    ```bash
+    npm start
+    ```
+
+4. **Open in browser:**
+    Visit [http://localhost:3000](http://localhost:3000)
+
+## Folder Structure
+
+```
+src/
+  components/
+  pages/
+  redux/
+  utils/
+  App.js
+  index.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
+Pull requests are welcome. For major changes, please open an issue first.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## License
 
-product live link:https://tech-bazer-skshohagmiahs-projects.vercel.app/
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[MIT](LICENSE)
